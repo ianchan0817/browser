@@ -23,6 +23,7 @@ require "browser/micro_messenger"
 require "browser/weibo"
 require "browser/qq"
 require "browser/alipay"
+require "browser/facebook"
 
 require "browser/bot"
 require "browser/middleware"
@@ -56,7 +57,8 @@ module Browser
       Chrome,
       Safari,
       MicroMessenger,
-      Generic
+      Generic,
+      Facebook
     ]
   end
 
